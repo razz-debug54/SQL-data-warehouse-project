@@ -12,6 +12,10 @@ Key Features     :
   - Standardized domain values (genders, marital statuses, product lines).
   - Defensive date parsing using TRY_CAST with sentinel default handling.
 
+parameters: this code wont take any parameters or return any value
+To execute the stored procedure 
+Run Query
+'EXEC silver.load_silver'
 
 ===============================================================================
 */
