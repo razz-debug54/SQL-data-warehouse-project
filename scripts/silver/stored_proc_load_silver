@@ -1,3 +1,24 @@
+/*
+===============================================================================
+Stored Procedure : silver.load_silver
+Layer            : Silver (Medallion Architecture)
+Description      : Cleans, transforms, and loads raw Bronze staging data into 
+                   standardized Silver layer relational tables.
+
+Key Features     :
+  - Idempotent execution using TRUNCATE before INSERT.
+  - Granular step-level execution timing (in ms) and total pipeline duration.
+  - Complete error handling (TRY...CATCH) with THROW for orchestrator logging.
+  - Standardized domain values (genders, marital statuses, product lines).
+  - Defensive date parsing using TRY_CAST with sentinel default handling.
+
+
+===============================================================================
+*/
+
+
+
+
 CREATE OR ALTER PROCEDURE silver.load_silver 
 AS
 BEGIN
