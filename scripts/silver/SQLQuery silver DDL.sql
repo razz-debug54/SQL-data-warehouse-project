@@ -1,3 +1,10 @@
+/*
+===========================================================================
+DDL Script : Create Silver Table
+Script Purpose : This sccript creates creates table in the 'silver' schema , droping
+                 existing table is they already exists
+===========================================================================
+*/
 use DataWarehouse
 go
 
